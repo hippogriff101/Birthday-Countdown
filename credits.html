@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="icon" type="image/jpeg" href="birthdate.jpg">
+        <script src="snow.js"></script>
+        <title>Please Turn On JavaScript.</title>
+        <style>
+            #snowflakeContainer {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                display: none;
+            }
+
+            .snowflake {
+                position: fixed;
+                background-color: #CCC;
+                z-index: 1000;
+                pointer-events: none;
+                border-radius: 50%;
+                width: 10px;
+                height: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="snowflakeContainer">
+            <span class="snowflake"></span>
+        </div>
+        <div class="container">
+            <span class="txt anim-text-flow" id="bigText">Credits</span>
+            <p id="caption">Thank you so much to <b>Charlie</b> for making this cool website! <br> All I did was host it on my domain and add my birthday! <br> Please click the button to go to his GitHub and give him a follow!</p>
+            <button class="button" onclick="window.location.href='https://www.freddieyershon.co.uk';">MY website!</button>
+            <button class="button" onclick="window.location.href='https://www.github.com/softpankek7';">Charlie's GitHub!</button>
+            <button class="button" onclick="window.location.href='https://softpankek7.github.io/';">Charlie's website!</button>
+        </div>
+        <div class="but">
+        <button class="button" onclick="window.location.href='index.html';">Back to Countdown!</button>
+        </div>
+        <br>
+        <a href="https://www.github.com/softpankek7" id="footnote">Made with ❤ by Charlie</a>
+    </body>
+</html>
